@@ -8,4 +8,4 @@ console.log("Metropolitan University");
 console.log(5+2);
 
 //3
-console.log("bye); //Syntax error
+//console.log("bye); //Syntax error
