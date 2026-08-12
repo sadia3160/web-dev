@@ -1,0 +1,72 @@
+body {
+  margin: 50px;
+}
+
+.card{
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+
+    color: 2b2839;
+    background-color: rgb(245, 213, 181);
+    border: 2px solid rgb(248, 186, 71);
+    border-bottom: 10px solid  rgb(248, 186, 71);
+    border-radius: 25px;
+
+    animation-name: card-animation;
+    animation-duration: 5s;
+    transition: width 2s;
+}
+
+.card:hover{
+    width: 450px;
+}
+
+.card:hover + .know-me{
+    width: 450px;
+    display: block;
+}
+
+.photo{
+    width: 160px;
+    height: 150px;
+    margin-right: 8px;
+    border: 1px solid rgb(248, 186, 71);
+    border-radius: 100%;
+}
+
+.info {
+    color: rgb(167, 102, 12);
+    border: 2px solid ddebf8;
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    text-shadow: 1px 1px 3px  rgb(248, 186, 71);
+}
+
+@keyframes card-animation {
+  0% {background-color:  rgb(225, 192, 192)};
+  50% {background-color:  rgb(232, 203, 203)};
+  100% { background-color: rgb(245, 213, 181)} ;
+}
+
+.know-me{
+    display: none;
+    width: 400px;
+    color: rgb(167, 102, 12);
+    background-color: rgb(232, 203, 203);
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-family: Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    animation-name: card-animation;
+    animation-duration: 5s;
+    transition: width 2s;
+}
