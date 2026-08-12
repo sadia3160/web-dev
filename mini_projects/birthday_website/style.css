@@ -1,21 +1,34 @@
 body{
-   background-color: #a2d2ff;
+   background: linear-gradient(lightskyblue,pink);
    color: #ffffff;
    text-shadow: 0px 0px 1px black;
+   font-family: 'Happy Monkey', sans-serif;
 }
 
 .hero {
+
     display: flex;
     flex-direction: column;
     align-items: center;
+
     width: 500px;
     margin: 10px auto;
-    font-family: 'Happy Monkey', sans-serif;
     text-align: center;
 }
 
-h2, h4 {
+#b-age{
+     background-color: pink;
+     padding: 5px 10px;
+     border-radius: 5px;
+     margin: 10px 0 10px 0;
+      /*margin: top right bottom left*/
+}
+
+#b-date{
+    margin: 0;
     background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 #kusakabe {
@@ -26,4 +39,59 @@ h2, h4 {
     border-radius: 50%;
     object-fit: cover;
     
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-cover{
+    height: 400px;
+    width: 400px;
+
+    border: 7px solid white;
+    border-radius: 10px;
+
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-title{
+    margin: 50px 0 10px 0;
+}
+#gift-hint{
+    margin: 5px 0 15px 0;
+}
+
+#gift-cover-happy:hover{
+    background-image: url("images/Happy Party GIF by Lazy Corgi.gif");
+    background-size: cover;
+}
+
+#gift-cover-yay:hover{
+    background-image: url("images/Clapping Applause GIF by Peanuts.gif");
+    background-size: cover;
+}
+
+#gift-cover-cute:hover{
+    background-image: url("images/pink star GIF by BuzzFeed Animation.gif");
+    background-size: cover;
+}
+
+#gift-cover-cheers{
+     height: 250px;
+     margin-bottom: 50px;
+}
+
+#gift-cover-cheers:hover{
+    background-image: url("images/Pengu GIF by Pudgy Penguins.gif");
+    background-size: cover;
+}
+
+p{
+    color:red;
+    text-align: center;
+    margin-top:50px;
 }
