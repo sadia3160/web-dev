@@ -1,0 +1,151 @@
+.spinnaker-regular {
+  font-family: "Spinnaker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    font-family: "Spinnaker", sans-serif;
+    margin: 5px;
+    background: linear-gradient(rgb(132, 151, 127), white);
+}
+
+.hero {
+    height: 200px;
+    background-image: url("images/rahabi-khan-unsplash.jpg");
+    background-size:cover;
+    
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-title{
+    
+    color: white;
+    background-color: rgb(37, 51, 34);
+    
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin: 35px 0 5px
+}
+
+#page-title-sub{
+
+    color: rgb(37, 51, 34);
+    text-shadow: 0 0 100px whitesmoke;
+    margin-top: 5px;
+
+    border: 2px solid white;
+    border-style:dashed;
+
+
+    padding: 10px;
+    margin: 10px;
+}
+
+#home-title{
+    text-align: center;
+    padding: 20px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+
+#img-nature{
+
+    height: 200px;
+    width: 200px;
+    
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%;
+}
+
+#img-food{
+    height: 200px;
+    width: 200px;
+    
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%;
+}
+
+#img-museam{
+    height: 200px;
+    width: 200px;
+    
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50%;
+}
+
+.nature {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  
+    height: 500px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  
+    height: 500px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+
+
+}
+
+.museam{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+  
+    height: 500px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.hint{
+    min-height: 3em;
+}
+
+.footer{
+    display: block;
+    text-shadow: 0 0 1px rgb(132, 151, 127);
+
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 50px 0 10px 0;
+    padding: 20px;
+}

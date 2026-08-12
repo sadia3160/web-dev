@@ -5,7 +5,7 @@ This repo contains code exercises from my web development course as well as some
 ---
 > html, css
 1. birthday_website: a fun website for surprise gift
-2. tripSyl: one page travel info website
+2. tripSyl_travelsite: one page travel info website
 3. business_card: a simple interactive personal info card
 4. space_exploration: one page space event join website
 
