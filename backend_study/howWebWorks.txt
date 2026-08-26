@@ -1,0 +1,12 @@
+//course-api.com slides
+
+//
+user sends https messages or request through browser to the server
+and server gives response
+
+//
+http messages
+-> request message by user [startLine, Headers, Body(optional)]
+-> response message by server [startLine, Headers, Body(optional)]
+
+//
