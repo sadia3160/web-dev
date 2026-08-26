@@ -1,5 +1,5 @@
 # web-dev
-This repo contains code exercises from my web development course as well as some fun mini projects that I practiced along the way.
+This repo contains code exercises from my web development course as well as some fun mini projects that I built along the way.
 
 **part-i | Language Foundations**
 ---
@@ -21,21 +21,45 @@ This repo contains code exercises from my web development course as well as some
 
 **Mini-projects**
 ---
-> HTML, CSS [one-pagers]
+> HTML, CSS [one-pagers]<br>
 
-**1. surpriseME:** A fun website for surprise gift
+**1.** surpriseME: A fun website for surprise gift<br>
 
-<img src="mini_projects/surpriseME/surprise_web.gif" alt="surprise gift website" width="60%">
+<img alt="surpriseMe frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/surpriseME/surprise_web.gif" width = "70%"><br>
 
-**2. tripSyl:** Travel info website
+**2.** tripSyl: Travel info website<br>
 
-<img src="mini_projects/tripSyl/tripSyl_web.gif" alt="travel website" width="60%">
+<img alt="tripSyl frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/tripSyl/tripSyl_web.gif" width="70%"><br>
 
-**3. mycard:** A simple interactive personal info card
+**3.** myCard: A simple interactive personal info card<br>
 
-<img src="mini_projects/myCard/business_card_web.gif" alt="business card" width="60%">
+<img alt="myCard frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/myCard/business_card_web.gif" width="70%"><br>
 
-**4. spaceEX:** Space event join website
+**4.** spaceEX: Space event join website<br>
 
-<img src="mini_projects/spaceEX/space_web.gif" alt="space event website" width="60%">
+<img alt="spaceEX frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/spaceEX/space_web.gif" width="70%"><br>
+
+
+> HTML, CSS, JS [one-pagers]<br>
+
+**5.** sheepCounter: A web app for sheep counting<br>
+
+<img alt="sheepCounter frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/sheepCounter/sheepCounter-web.png" width="70%"><br>
+
+**6.** charTrack: Live character tracker<br>
+
+<img alt="charTrack frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/charTrack/charTrack-web.png" width="70%"><br>
+
+**7.** todo: +with localStorage<br>
+
+<img alt="todo frontend" src="https://github.com/sadia3160/web-dev/blob/1be16ec8786897331b2d0bd557308f2aa31bc2f9/mini_projects/todo/todo-web.png" width="70%"><br>
+
+**8.** getJoke +by fetching joke from api<br>
+
+<img alt="getJoke frontend" src="https://github.com/sadia3160/web-dev/blob/24c20bf8643b77755d63d3e47db37a0a3ae4c1f9/mini_projects/getJoke/getJoke-web.png" width="70%"><br>
+
+
+
+
+
 
