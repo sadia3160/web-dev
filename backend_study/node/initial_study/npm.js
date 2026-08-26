@@ -20,3 +20,11 @@ const _ = require('lodash'); //if u dont install dependency then the node will n
 const items = [1, [2, [3, [4, [5] ] ] ] ];
 const newItems = _.flattenDeep(items);
 console.log(newItems);
+
+ //npm start
+ //npm run dev
+ //npm uninstall <packageName> //check: nuclear way of uninstalling
+
+ //nodemon : a dev utility tool for nodejs that automatically restarts application when detects any changes in the dir
+ // check: global install** npx**
+ // check: nodesource's blog about basics of package.json in nodejs and npm 
