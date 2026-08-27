@@ -9,7 +9,7 @@ const homeLogic = readFileSync('../todo-app/app.js');
 
 const server = http.createServer((req, res) => { //this method here, will be invoked everytime user hits the server
     //console.log("user hit the server");
-    console.log(req);
+    //console.log(req);
     //console.log(req.method);
     const url = req.url;
     
